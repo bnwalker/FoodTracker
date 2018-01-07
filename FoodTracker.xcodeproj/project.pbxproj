@@ -13,6 +13,7 @@
 		F7BF0FE21FF6AB99005A5978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BF0FE11FF6AB99005A5978 /* Assets.xcassets */; };
 		F7BF0FE51FF6AB99005A5978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BF0FE31FF6AB99005A5978 /* LaunchScreen.storyboard */; };
 		F7BF0FF01FF6AB9A005A5978 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF0FEF1FF6AB9A005A5978 /* FoodTrackerTests.swift */; };
+		F7BF0FFB1FF6F2AD005A5978 /* Rating Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF0FFA1FF6F2AD005A5978 /* Rating Control.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F7BF0FEB1FF6AB9A005A5978 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BF0FEF1FF6AB9A005A5978 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		F7BF0FF11FF6AB9A005A5978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BF0FFA1FF6F2AD005A5978 /* Rating Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rating Control.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				F7BF0FDA1FF6AB99005A5978 /* AppDelegate.swift */,
 				F7BF0FDC1FF6AB99005A5978 /* ViewController.swift */,
+				F7BF0FFA1FF6F2AD005A5978 /* Rating Control.swift */,
 				F7BF0FDE1FF6AB99005A5978 /* Main.storyboard */,
 				F7BF0FE11FF6AB99005A5978 /* Assets.xcassets */,
 				F7BF0FE31FF6AB99005A5978 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				F7BF0FDD1FF6AB99005A5978 /* ViewController.swift in Sources */,
 				F7BF0FDB1FF6AB99005A5978 /* AppDelegate.swift in Sources */,
+				F7BF0FFB1FF6F2AD005A5978 /* Rating Control.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +361,7 @@
 				DEVELOPMENT_TEAM = C5384A58S7;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bwalker.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -372,7 +376,7 @@
 				DEVELOPMENT_TEAM = C5384A58S7;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bwalker.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
