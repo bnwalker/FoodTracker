@@ -48,6 +48,7 @@
                                     <outlet property="nameLabel" destination="JyS-4M-sWS" id="4o4-Bg-En6"/>
                                     <outlet property="photoImageView" destination="UoT-hs-4oL" id="6Cz-n2-a72"/>
                                     <outlet property="ratingControl" destination="rP9-EX-K5h" id="xp3-TT-cXK"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="H6E-33-RBF"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -129,7 +130,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="WtO-xY-vYE">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="XKN-BQ-hAq"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="XKN-BQ-hAq">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="vY9-nw-Sng"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="wDz-GZ-xyX">
                             <connections>
                                 <segue destination="nf7-RF-Iov" kind="unwind" unwindAction="unwindToMealListWithSender:" id="dSu-PA-WmY"/>
@@ -187,10 +192,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyh-at-y3x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="563.20000000000005" y="151.12443778110946"/>
+            <point key="canvasLocation" x="575" y="507"/>
         </scene>
     </scenes>
     <resources>
         <image name="Defalt Photo" width="400" height="300"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="H6E-33-RBF"/>
+    </inferredMetricsTieBreakers>
 </document>
